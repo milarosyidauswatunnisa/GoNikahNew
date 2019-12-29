@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".jewel"
+        <activity android:name=".jewel.JewelActivity"
             android:label = "Cincin Pernikahan"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
-        </activity>>
-        <activity android:name=".entertainer"
+        </activity>
+        <activity android:name=".entertainer.EntertainerActivity"
             android:label = "Entertainer"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -25,7 +25,7 @@
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
         </activity>
-        <activity android:name=".cake"
+        <activity android:name=".cake.CakeActivity"
             android:label = "Cake"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -33,7 +33,7 @@
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
         </activity>
-        <activity android:name=".undangan"
+        <activity android:name=".undangan.UndanganActivity"
             android:label = "Undangan"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -41,7 +41,7 @@
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
         </activity>
-        <activity android:name=".souvenir"
+        <activity android:name=".souvenir.SouvenirActivity"
             android:label = "Souvenir"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -49,7 +49,7 @@
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
         </activity>
-        <activity android:name=".catering"
+        <activity android:name=".catering.CateringActivity"
             android:label = "Catering"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -57,7 +57,7 @@
                 android:value=
                     "com.informatika.gonikah.MainActivity" />
         </activity>
-        <activity android:name=".gedung"
+        <activity android:name=".gedung.GedungActivity"
             android:label = "Gedung"
             android:parentActivityName=".MainActivity">
         <meta-data
@@ -68,7 +68,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

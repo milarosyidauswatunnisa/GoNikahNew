@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gedung_item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            tools:src="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/gedung_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gedung_item_img"
+            tools:text="@tools:sample/lorem"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/gedung_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gedung_item_name"
+            android:layout_marginTop="4dp"
+            tools:text="@tools:sample/lorem"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
