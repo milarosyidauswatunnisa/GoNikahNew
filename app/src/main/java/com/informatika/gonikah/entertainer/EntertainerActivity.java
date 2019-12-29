@@ -1,14 +1,16 @@
-package com.informatika.gonikah;
+package com.informatika.gonikah.entertainer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class cake extends AppCompatActivity {
+import com.informatika.gonikah.R;
+
+public class EntertainerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cake);
+        setContentView(R.layout.activity_entertainer);
     }
 }
